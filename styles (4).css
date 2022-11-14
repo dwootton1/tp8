@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+#mainTable {
+  width: 80vw;
+  height: 80vh;
+  position: relative;
+  margin: 5vh auto;
+}
+
+.card {
+  position: relative;
+  width: 15vw;
+  height: 15vw;
+  margin: 1vw;
+  float: left;
+  border: 1vw solid #fff;
+}
+
+.card.clicked {
+  border: 1vw solid #333;
+}
+
+.card div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.cardBack {
+  background-image: url(images/necro.webp);
+}
+
+.cardFront {
+  display: none;
+  background-color: #333;
+}
+
+.clicked .cardFront {
+  display: block;
+}
+
+.clicked .cardBack {
+  display: none;
+}
+
+.pic1 .cardFront {
+  background-image: url(images/FreddyK.jpeg);
+  background-size: cover;
+}
+
+.pic2 .cardFront {
+  background-image: url(images/ghosty.webp);
+  background-size: cover;
+}
+
+.pic3 .cardFront {
+  background-image: url(images/leatherface.jpeg);
+  background-size: cover;
+}
+
+.pic4 .cardFront {
+  background-image: url(images/nemmy.jpeg);
+  background-size: cover;
+ }
+
+.pic5 .cardFront {
+  background-image: url(images/MichaelMyers2018.jpeg);
+  background-size: cover;
+}
